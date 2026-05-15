@@ -1,10 +1,16 @@
 # HOW TO FIX CONSOLE
 
-** CLONE REPO **
+# CLONE REPO 
 ``` git clone https://github.com/Flaxmc1/hvm-v8_console_fixer ```
-** GO TO DIRECTLY **
+
+
+#  GO TO DIRECTLY 
 ``` cd hvm-v8_console_fixer ```
-** INSTALL IMPORTANT PAKAGE **
+
+
+#  INSTALL IMPORTANT PAKAGE 
 ``` pip install flask ```
-** RUN the command **
+
+
+# RUN THE COMMAND
 ``` python3 ssh_fix.py ```
