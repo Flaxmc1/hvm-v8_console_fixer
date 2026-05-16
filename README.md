@@ -20,7 +20,7 @@
 ` nano /etc/systemd/system/ssh_fix.service ` 
 
 
-``` [Unit]
+` [Unit]
 Description=HVM CONSOLE FIXER MADE BY NISSALOP2
 After=network.target
 StartLimitIntervalSec=0
@@ -39,7 +39,7 @@ NoNewPrivileges=yes
 PrivateTmp=yes
 
 [Install]
-WantedBy=multi-user.target ```
+WantedBy=multi-user.target `
 
 
 
