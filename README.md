@@ -17,6 +17,9 @@
 
 
 # RUN AS SYSTEMD
+` nano /etc/systemd/system/ssh_fix.service ` 
+
+
 ``` [Unit]
 Description=HVM CONSOLE FIXER MADE BY NISSALOP2
 After=network.target
@@ -40,23 +43,21 @@ WantedBy=multi-user.target ```
 
 
 
-# START SSH FIXER
-``` chmod +x /root/ssh/ssh_fix.py ```
 
 
 # RUN ALL IMPORTANT CMD
-``` systemctl daemon-reload
+` systemctl daemon-reload
     systemctl start ssh_fix 
-    systemctl enable ssh_fix ```
+    systemctl enable ssh_fix`
 
 # CHECK STATUS
 
-``` systemctl status ssh_fix ```
+` systemctl status ssh_fix `
 
 
 # CHECK LOGS IF ERROR
 
-``` journalctl -u ssh_fix -n 20 --no-pager ```
+`journalctl -u ssh_fix -n 20 --no-pager`
 
 
 
