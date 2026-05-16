@@ -36,16 +36,6 @@ A robust solution for fixing console connectivity issues in HVM environments. Th
 
 ## 🚀 Quick Installation
 
- # bash
-# Clone the repository
-git clone https://github.com/Flaxmc1/hvm-v8_console_fixer.git
-
-# Navigate to project directory
-cd hvm-v8_console_fixer
-
-# Run automated setup
-chmod +x setup.sh && sudo ./setup.sh
-
 # HOW TO FIX CONSOLE
 
 # CLONE REPO 
