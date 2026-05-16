@@ -20,7 +20,7 @@ from datetime import datetime
 from pathlib import Path
 
 # Configuration
-DATABASE_PATH = '/root/hvm/hvm.db'  # Your exact database path
+DATABASE_PATH = '/opt/hvm/hvm.db'  # Your exact database path
 CHECK_INTERVAL = 3  # Check every 3 seconds for faster response
 DB_CHECK_INTERVAL = 5  # Check database for password changes every 5 seconds
 
