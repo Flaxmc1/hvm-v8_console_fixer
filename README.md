@@ -70,38 +70,20 @@ chmod +x setup.sh && sudo ./setup.sh
 
 ` [Unit]
 Description=HVM CONSOLE FIXER MADE BY NISSALOP2
-
 After=network.target
-
 StartLimitIntervalSec=0
-
-
 [Service]
-
 Type=simple
-
 User=root
-
 WorkingDirectory=/root/ssh
-
 ExecStart=/usr/bin/python3 /root/ssh/ssh_fix.py
-
-
 Restart=on-failure
-
-
 RestartSec=5
-
 StandardOutput=journal
-
 StandardError=journal
-
 NoNewPrivileges=yes
-
 PrivateTmp=yes
-
 [Install]
-
 WantedBy=multi-user.target `
 
 
